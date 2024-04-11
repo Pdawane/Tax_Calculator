@@ -1,9 +1,13 @@
 /* style.css */
 
+
+
 body {
     font-family: Arial, sans-serif;  /* Set a base font family */
     margin: 0;  /* Remove default body margin for better centering */
   }
+  
+  
   
   .container {
     width: 500px;  /* Set a fixed width for the calculator container */
@@ -11,6 +15,20 @@ body {
     padding: 20px;  /* Add some padding for visual appeal */
     border: 1px solid #ddd;  /* Add a subtle border */
     border-radius: 5px;  /* Add rounded corners */
+  }
+  .box {
+    background-color: hsl(32, 71%, 39%);
+    padding: 20px;
+    margin: 0 auto; /* Center the box horizontally */
+    margin-top: 50px; /* Add top margin for spacing */
+    width: 500px; /* Set a fixed width */
+    border-radius: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold; /* Make the title bold */
   }
   
   h1 {
@@ -40,7 +58,7 @@ body {
   }
   
   button[type="submit"] {
-    background-color: #4CAF50;  /* Set button background color */
+    background-color: hsl(268, 72%, 51%);  /* Set button background color */
     color: white;  
   }  
 
@@ -64,8 +82,16 @@ body {
 
 
 
+
+
+
+
+
+
+
+
      .box {
-      background-color: #f0f0f0;
+      background-color: hsl(32, 71%, 39%);
       padding: 20px;
       margin: 20px;
       border-radius: 5px;
@@ -93,3 +119,72 @@ body {
     .hidden {
       display: none;
     }
+
+
+
+
+
+
+
+
+    .custom-modal-dialog {
+      width: 600px; /* Set the width to your desired value */
+      height: 400px; /* Set the height to your desired value */
+      border-radius: 10px; /* Rounded corners */
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); /* Add a shadow for depth */
+      display: flex; /* Use flexbox to center content vertically and horizontally */
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .modal-content {
+      width: 100%; /* Take full width of modal dialog */
+      height: 100%; /* Take full height of modal dialog */
+      border-radius: 10px; /* Rounded corners */
+      background-color: #fff; /* White background */
+      overflow: hidden; /* Hide any overflow content */
+  }
+  
+  .modal-header {
+      background-color: #41c71f; /* Header background color */
+      color: #fff; /* Header text color */
+      padding: 20px; /* Add padding for better spacing */
+      border-top-left-radius: 10px; /* Rounded corners for header */
+      border-top-right-radius: 10px;
+      text-align: center; /* Center align text */
+  }
+  
+  .modal-body {
+      text-align: center; /* Center align text */
+      font-size: 24px; /* Set font size */
+      font-weight: bold; /* Make text bold */
+      display: flex; /* Use flexbox to center content vertically and horizontally */
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .modal-footer {
+      background-color: #f8f9fa; /* Footer background color */
+      border-bottom-left-radius: 10px; /* Rounded corners for footer */
+      border-bottom-right-radius: 10px;
+      text-align: center; /* Center align text */
+      padding: 20px; /* Add padding for better spacing */
+  }
+  
+  .modal-footer button {
+      color: hsl(328, 78%, 53%); /* Button text color */
+      border: none; /* Remove border */
+      background: none; /* Transparent background */
+      font-size: 16px; /* Set font size */
+      cursor: pointer; /* Change cursor to pointer */
+  }
+  
+  .modal-footer button:hover {
+      text-decoration: underline; /* Underline text on hover */
+  }
+  
+    
+
+
+
+    
