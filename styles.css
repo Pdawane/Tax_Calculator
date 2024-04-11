@@ -1,0 +1,95 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;  /* Set a base font family */
+    margin: 0;  /* Remove default body margin for better centering */
+  }
+  
+  .container {
+    width: 500px;  /* Set a fixed width for the calculator container */
+    margin: 0 auto;  /* Center the container horizontally */
+    padding: 20px;  /* Add some padding for visual appeal */
+    border: 1px solid #ddd;  /* Add a subtle border */
+    border-radius: 5px;  /* Add rounded corners */
+  }
+  
+  h1 {
+    text-align: center;  /* Center the heading text */
+    margin-bottom: 20px;   /* Add space after the heading */
+  }
+  
+  .form-group {
+    margin-bottom: 15px;  /* Add space between form groups */
+  }
+  
+  label {
+    display: block;  /* Make labels display on their own line */
+    margin-bottom: 5px;  /* Add space after labels */
+  }
+  
+  input[type="number"],
+  select {
+    width: 100%;  /* Make input fields and select element fill the full width */
+    padding: 8px;  /* Add padding for better user experience */
+    border: 1px solid #ccc;  /* Add a border */
+    border-radius: 3px;  /* Add rounded corners */
+  }
+  
+  .error-icon {
+    color: red;  /* Set the color for error icons */
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;  /* Set button background color */
+    color: white;  
+  }  
+
+  .form-group {
+  margin-bottom: 15px;
+}
+
+.info-icon {
+  margin-left: 5px;
+  cursor: pointer; /* Makes the icon clickable for better UX */
+}
+
+.error-icon {
+  /* Style the error icon as needed. 
+     Consider using a red color to indicate an error. */
+  color: red;
+}
+
+
+
+
+
+
+     .box {
+      background-color: #f0f0f0;
+      padding: 20px;
+      margin: 20px;
+      border-radius: 5px;
+    } 
+
+    .title {
+      margin-top: 0;
+      position: relative;
+    }
+
+    .tooltip {
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    .message {
+      margin-top: 10px;
+      font-size: 14px;
+      display: none;
+    }
+
+    .hidden {
+      display: none;
+    }
