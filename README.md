@@ -24,12 +24,20 @@ It will show a model with your calculated tax according to above conditions.
 
 
 
-
+If we take the cursor tot the field message will pop up for filling details 
 ![Screenshot 2024-04-11 182013](https://github.com/Pdawane/Tax_Calculator/assets/123566848/e10f5771-96e6-48b8-87a8-f179c7c34103)
 ![Screenshot 2024-04-11 182029](https://github.com/Pdawane/Tax_Calculator/assets/123566848/4502bdfb-f83b-490f-81b4-1c367c88c88a)
 ![Screenshot 2024-04-11 182107](https://github.com/Pdawane/Tax_Calculator/assets/123566848/5f793ea5-ce69-4788-81dd-467791bc02c6)
+
+
+Drop down the window for selecting Age Range you fall in 
 ![Screenshot 2024-04-11 182121](https://github.com/Pdawane/Tax_Calculator/assets/123566848/bad31af6-809b-45c1-ab2f-4140cbcb2c15)
+
+
+If User directly click on Calculate Tax, it will show error message to fill the details 
 ![Screenshot 2024-04-11 182137](https://github.com/Pdawane/Tax_Calculator/assets/123566848/9ac8c293-2288-42bc-b928-a4408bc948fc)
+
+
 ![Screenshot 2024-04-11 182223](https://github.com/Pdawane/Tax_Calculator/assets/123566848/6e9cdcc2-db9e-419e-a249-6ae46b71efe6)
 ![Screenshot 2024-04-11 182239](https://github.com/Pdawane/Tax_Calculator/assets/123566848/665ab9ea-3307-4a63-a7b1-7f2d99081bd3)
 ![Screenshot 2024-04-11 182303](https://github.com/Pdawane/Tax_Calculator/assets/123566848/2a1cd483-5957-481d-ac6c-6ebd3133ec82)
