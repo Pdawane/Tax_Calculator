@@ -24,9 +24,7 @@ It will show a model with your calculated tax according to above conditions.
 
 
 
-![Screenshot 2024-04-10 181326](https://github.com/Pdawane/Tax_Calculator/assets/123566848/5637cc96-6cea-4826-b060-2c81648a80cf)
-![Screenshot 2024-04-10 181928](https://github.com/Pdawane/Tax_Calculator/assets/123566848/1b3a1980-e735-4078-b1b8-5b5ddb968acd)
-![Screenshot 2024-04-10 182025](https://github.com/Pdawane/Tax_Calculator/assets/123566848/6b9fccab-1876-4911-bba3-4f21920d1731)
+
 ![Screenshot 2024-04-11 182013](https://github.com/Pdawane/Tax_Calculator/assets/123566848/e10f5771-96e6-48b8-87a8-f179c7c34103)
 ![Screenshot 2024-04-11 182029](https://github.com/Pdawane/Tax_Calculator/assets/123566848/4502bdfb-f83b-490f-81b4-1c367c88c88a)
 ![Screenshot 2024-04-11 182107](https://github.com/Pdawane/Tax_Calculator/assets/123566848/5f793ea5-ce69-4788-81dd-467791bc02c6)
