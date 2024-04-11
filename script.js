@@ -22,12 +22,6 @@ errorIcons.forEach(icon => {
 
 
 
-
-
-
-
-
-
     document.addEventListener('DOMContentLoaded', function() {
       const tooltip = document.querySelector('.tooltip');
       const message = document.querySelector('.message');
@@ -43,6 +37,9 @@ errorIcons.forEach(icon => {
       });
     });
   
+
+
+
 
 
 
@@ -92,6 +89,13 @@ function validateInput() {
 
   return isValid;
 }
+
+
+
+
+
+
+
 
 // Function to calculate tax
 function calculateTax() {
@@ -147,6 +151,18 @@ resultModal.addEventListener('click', function(event) {
     resultModal.style.display = 'none';
   }
 
+});
 
 
+
+
+// JavaScript to show and hide modal and overlay
+document.getElementById('calculate-tax-button').addEventListener('click', function() {
+  document.getElementById('overlay').style.display = 'block';
+  document.getElementById('result-modal').style.display = 'block';
+});
+
+document.getElementById('close-modal').addEventListener('click', function() {
+  document.getElementById('overlay').style.display = 'none';
+  document.getElementById('result-modal').style.display = 'none';
 });
