@@ -182,7 +182,18 @@ body {
   .modal-footer button:hover {
       text-decoration: underline; /* Underline text on hover */
   }
-  
+
+
+
+
+
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
     
 
 
