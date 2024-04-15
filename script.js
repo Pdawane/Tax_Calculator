@@ -41,6 +41,52 @@ errorIcons.forEach(icon => {
 
 
 
+    document.addEventListener("DOMContentLoaded", function() {
+        const grossIncomeInput = document.getElementById("gross-income");
+        const extraIncomeInput = document.getElementById("extra-income");
+        const deductionsInput = document.getElementById("deductions");
+
+        // Function to display pop-up error message and style input field
+        function displayErrorMessage(inputElement) {
+            alert("Please enter a number.");
+            inputElement.value = ''; // Clear input field if non-numeric value entered
+            inputElement.classList.add('error-input'); // Apply error input style
+        }
+
+        // Function to remove error styles
+        function removeErrorStyles(inputElement) {
+            inputElement.classList.remove('error-input'); // Remove error input style
+        }
+
+        // Event listener for input event on gross income field
+        grossIncomeInput.addEventListener("input", function() {
+            if (isNaN(this.value)) {
+                displayErrorMessage(this);
+            } else {
+                removeErrorStyles(this);
+            }
+        });
+
+        // Event listener for input event on extra income field
+        extraIncomeInput.addEventListener("input", function() {
+            if (isNaN(this.value)) {
+                displayErrorMessage(this);
+            } else {
+                removeErrorStyles(this);
+            }
+        });
+
+        // Event listener for input event on deductions field
+        deductionsInput.addEventListener("input", function() {
+            if (isNaN(this.value)) {
+                displayErrorMessage(this);
+            } else {
+                removeErrorStyles(this);
+            }
+        });
+    });
+
+
 
 
 
