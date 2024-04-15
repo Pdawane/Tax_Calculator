@@ -184,10 +184,19 @@ body {
   }
 
 
+/* for error */
+  .error-message {
+      color: red;
+  }
+
+  /* Style for input field with error */
+  .error-input {
+      border: 2px solid red;
+  }
 
 
 
-
+/* for scrolling bar to close  */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
